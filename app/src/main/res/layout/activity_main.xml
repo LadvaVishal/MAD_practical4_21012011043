@@ -8,8 +8,8 @@
 
     <Button
         android:id="@+id/login"
-        android:layout_width="150dp"
-        android:layout_height="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="464dp"
         android:text="Login"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,8 +19,8 @@
 
     <Button
         android:id="@+id/singUp"
-        android:layout_width="150dp"
-        android:layout_height="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="552dp"
         android:text="Sign Up"
         app:layout_constraintEnd_toEndOf="parent"

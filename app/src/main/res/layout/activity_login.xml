@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="391dp"
-        android:layout_height="207dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
         android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -18,10 +18,11 @@
         app:srcCompat="@drawable/guni_pink_logo" />
 
     <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView2"
         android:layout_width="383dp"
         android:layout_height="333dp"
-        app:cardCornerRadius="30dp"
         android:layout_marginHorizontal="20dp"
+        app:cardCornerRadius="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageView">
@@ -44,8 +45,8 @@
 
             <TextView
                 android:id="@+id/textView2"
-                android:layout_width="108dp"
-                android:layout_height="37dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="116dp"
 
@@ -69,8 +70,8 @@
 
             <EditText
                 android:id="@+id/editTextTextPassword"
-                android:layout_width="203dp"
-                android:layout_height="41dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="132dp"
                 android:ems="10"
                 android:inputType="textPassword"
@@ -104,15 +105,17 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="222dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
         android:layout_marginBottom="128dp"
         android:background="#00A1A8B1"
         android:text="Don't have an account ? "
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialCardView2"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/button2"
